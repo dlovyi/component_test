@@ -1,0 +1,21 @@
+{
+    "name": "componenttest/componenttest",
+    "description": "this is test code.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dong",
+            "email": "280648644@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "ComponentTest\\FirstTest\\":"src/ComponentTest/FirstTest/"
+        }
+    }
+}
